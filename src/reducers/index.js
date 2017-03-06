@@ -3,8 +3,7 @@ import images from './imageReducer';
 import videos from './videoReducer';
 
 const rootReducer = combineReducers({
-  images,
-  videos
+  images, videos
 });
 
 export default rootReducer;

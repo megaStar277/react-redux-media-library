@@ -1,5 +1,5 @@
 import { fork } from 'redux-saga/effects';
-import watchSearchMedia from './watcher';
+import watchSearchMedia from './watchers';
 
 export default function* startForman() {
   yield fork(watchSearchMedia);
